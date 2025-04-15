@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Card Predictor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Card Predictor</h1>
+    <div id="card-container" class="card-row">
+      <img class="card-slot" id="card1" src="" />
+      <img class="card-slot" id="card2" src="" />
+      <img class="card-slot" id="card3" src="" />
+      <img class="card-slot" id="card4" src="" />
+      <img class="card-slot" id="card5" src="" />
+    </div>
+    <div class="button-row">
+      <button onclick="addCard('red')">RED</button>
+      <button onclick="generateCard()">GENERATE</button>
+      <button onclick="addCard('black')">BLACK</button>
+    </div>
+    <div class="button-row">
+      <button onclick="confirmPrediction(true)">YES</button>
+      <button onclick="confirmPrediction(false)">NO</button>
+    </div>
+    <div class="button-row">
+      <button onclick="resetSequence()">RESET</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
