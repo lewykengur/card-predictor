@@ -1,0 +1,37 @@
+
+body {
+  background: linear-gradient(to bottom right, #7700ff, #e100ff);
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: white;
+}
+.cards {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+.cards img {
+  width: 60px;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+#redBtn { background-color: red; color: white; }
+#blackBtn { background-color: black; color: white; }
+#generateBtn, #yesBtn { background-color: green; color: white; }
+#noBtn { background-color: red; color: white; }
+#resetBtn { background-color: #333; color: white; }
